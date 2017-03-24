@@ -1,0 +1,9 @@
+$("#getdata-button").click(function() {
+  $.getJSON('json_data.txt', function(read_data) {
+    $.each(read_data.result, function(i, data) {
+      $("#choice1").html(data.student name1 + data.course);
+      $("#choice2").html(data.student name2 + data.course);
+      $("#choice3").html(data.student name3 + data.course);
+    });
+  });
+});

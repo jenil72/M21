@@ -1,0 +1,10 @@
+var student
+
+{student name1: "jenil"
+ course: "WP" }
+
+{student name2: "siddharth"
+ course : "WP"}
+
+{student name3: "vishesh"
+ course: "WP" }
